@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@1,300&family=Vina+Sans&display=swap');
+
+.slovo{
+    color: rgb(21, 223, 223);
+    position: relative;
+    top: 40px;
+    left: 200px;
+    font-size: 1.6rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h3{
+    display:inline-flex;
+    margin: 0;
+}
+
+
+.menu{
+    display: flex;
+    border: 1px solid rgb(177, 177, 177);
+    justify-content: center;
+    font-size: 1.1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(146, 146, 146);
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+
+.conteiner{
+    display: inline-grid;
+    height: 300px;
+    width: -webkit-fill-available;
+    border: 1px solid black;
+    background-color: rgb(206, 206, 206);
+    margin-left: 200px;
+    margin-right: 200px;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.content{
+    font-size: 3rem;
+    width: 1040px;
+    font-family: 'Vina Sans', sans-serif;
+    color: rgb(146, 146, 146);
+    padding-left: 50px;
+    padding-top: 50px;
+    
+}
+.content2{
+    font-size: 1.5rem;
+    color: rgb(160, 159, 159);
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    padding-left: 70px;
+    top: -70px;
+    
+}
+
+.serch-box{
+    padding: 0 0px;
+    margin-left: 1125px;
+    position:relative;
+    height: 50px;
+    top: 10px;
+}
+.serch-btn{
+    color: aqua;
+}
+.fa.fa-check-square{
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+    right: 4px;
+}
+.conteiner2{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    position: relative;
+    top: 30px;
+    border: 1px solid rgb(223, 222, 222);
+    width: 1100px;
+    margin-left: 200px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    color: rgb(121, 121, 121);
+}
+
+.content1{
+    display: inline-grid;
+    justify-content: center;
+    width: 1110px;
+    height: 300px;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(2,1fr);
+    position: relative;
+    
+    margin-left:200px ;
+}
+
+.item1{
+    color: aqua;
+    margin-left: 10px;
+}
+.item2{
+    margin-right: 100px;
+}
+
+.item{
+    background-color: rgb(155, 155, 155);
+    grid-area: 2/1/5;
+}
+
+.item3{
+    display: grid;
+    grid-area: 2/2/3/4;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+}
+
+.item4{
+    background-color: rgb(155, 155, 155);
+    grid-area: 2/5/5;
+}
+
+
+.item5{
+    display: grid;
+    margin-left: 10px;
+    grid-area: 2/7/2/6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-hight{
+    border: 1px solid rgb(201, 199, 199);
+    background-color: rgb(218, 216, 216);
+    position: relative;
+    width: 450px;
+    margin-left: 230px;
+    color: rgb(163, 163, 163);
+    font-size: 1.2rem;
+    top: -217PX;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.text-hight1{
+    border: 1px solid rgb(201, 199, 199);
+
+    background-color: rgb(218, 216, 216);
+    width: 510px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    color: rgb(163, 163, 163);
+    position: relative;
+    margin-left: 760px;
+    top: -260px;
+}
+
+.text-hight2{
+    border: 1px solid rgb(201, 199, 199);
+    background-color: rgb(218, 216, 216);
+    width: 260px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    color: rgb(163, 163, 163);
+    position: relative;
+    margin-left: 220px;
+    top: -40px;
+}
+
+.text-hight3{
+    border: 1px solid rgb(201, 199, 199);
+    background-color: rgb(218, 216, 216);
+    width: 260px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    color: rgb(163, 163, 163);
+    position: relative;
+    margin-left: 610px;
+    top: -80px;
+}
+
+.text-hight4{
+    border: 1px solid rgb(201, 199, 199);
+    background-color: rgb(218, 216, 216);
+    width: 260px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    color: rgb(163, 163, 163);
+    position: relative;
+    margin-left: 1010px;
+    top: -120px;
+}
+
+.fa-solid.fa-square.fa-2xl{
+    color: aqua;
+    
+}
+
+.conteiner3{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: repeat(3,1fr);
+    position: relative;
+    top: -120px;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 10px;
+}
+
+.item7{
+    display: grid;
+    grid-area: 3/1/1/4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item9{
+    display: grid;
+    grid-area: 3/7/1/9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.item10{
+    background-color: rgb(66, 65, 65);
+    grid-area: 1/4 /1/5;
+}
+
+.item12{
+    background-color: rgb(141, 138, 138);
+    grid-area: 2/4/2/5;
+}
+
+.item14{
+    background-color: rgb(201, 201, 201);
+    grid-area: 3/4/4/5;
+}
+
+.item11{
+    display: grid;
+    grid-area: 1/5/1/6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item13{
+    display: grid;
+    grid-area: 2/5/2/6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item15{
+    display: grid;
+    grid-area: 3/5/5/6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fa-brands.fa-discord.fa-2xl{
+    background-color: blue;
+}
+
+.conteiner4{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    position: relative;
+    top: -80px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.icon{
+    margin-left: 130px;
+}
+
+.icon2{
+    margin-left: 110px;
+}
+
+.icon3{
+    margin-left: 110px;
+}
+.icon4{
+    margin-left: 110px;
+}
+.icon5{
+    margin-left: 70px;
+}
+
+.icon6{
+    position: relative;
+    top: 3px;
+}
+
+.conteiner5{
+    display: grid;
+    background-color: rgb(61, 60, 60);
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    position: relative;
+    height: 130px;
+    margin-top: -60px;
+
+}
+
+.one{
+    position: relative;
+    top: 5px;
+}
+
+.two{
+    position: relative;
+    top: 5px;
+}
+
+.tree{
+    position: relative;
+    top: 5px;
+}
+.foo{
+    position: relative;
+    top: 5px;
+}
